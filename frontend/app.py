@@ -480,7 +480,7 @@ if page == "Predict":
         image_bytes = uploaded_file.read()
         image = Image.open(io.BytesIO(image_bytes))
         st.markdown('<div class="image-label">🖼️ UPLOADED IMAGE</div>', unsafe_allow_html=True)
-        st.image(image, caption="Leaf image", use_column_width=True)
+        st.image(image, caption="Leaf image", use_container_width=True)
 
         with st.spinner("Analyzing leaf image..."):
             if USE_API_BACKEND:
