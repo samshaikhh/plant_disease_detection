@@ -1,0 +1,10 @@
+data/raw/
+data/split/
+*.db
+__pycache__/
+*.pyc
+.DS_Store
+.kaggle/
+venv/
+.env
+dataset/
