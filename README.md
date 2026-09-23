@@ -148,3 +148,6 @@ git push -u origin main
 ## 📄 License
 
 This project is for academic/educational purposes.
+
+## check live status
+https://plantcare-ai-app.streamlit.app/
